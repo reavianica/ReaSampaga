@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" type="image/x-icon" href="sta">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebucks Landing page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="all-content">
+   
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html  " id="logo"><img src="Images for Ebucks/Starbucks-Logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Merchandise</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="menu p-0" id="menu">
+    <!-- <div class="container">
+      <div class="heading3">Menu</div>
+    </div> -->
+    <div class="container" id="container2">
+    <div class="row">
+      <div class="heading3">Menu</div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('A')">
+          <img src="Images for Ebucks/choco-chip.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Java Chip Frappuccino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('B')">
+          <img src="Images for Ebucks/green-tea.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Green Tea Cream Frappuccino</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('C')">
+          <img src="Images for Ebucks/ice-pome.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Iced Shaken Hibiscus Tea with Pomegranate Pearls</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('D')">
+          <img src="Images for Ebucks/ice-americano.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Iced Americano</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('E')">
+          <img src="Images for Ebucks/pink-drink.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Pink Drink with Strawberry Açaí Starbucks Refreshers</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('F')">
+          <img src="Images for Ebucks/ice-mocha.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Iced White Chocolate Mocha</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('G')">
+          <img src="Images for Ebucks/strawberry-lemonade.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            <h3 class="text-center text-md-start">Strawberry Açaí with Lemonade Starbucks Refreshers</h3>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 col-xl-3 py-3 py-md-0">
+        <div class="card" onclick="showDetails('H')">
+          <img src="Images for Ebucks/ice-matcha.png" alt="">
+          <div class="card-body">
+            <div class="star text-center">
+            </div>
+            <h3 class="text-center text-md-start">Iced Espresso and Matcha Fusion</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <div id="modalA" class="modal">
+    <div class="modal-content">
+      <span id="closeA" class="close" onclick="hideDetails('A')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Java Chip Frappuccino</h3>
+      <p>We blend mocha sauce and Frappuccino® chips with Frappuccino® roast coffee and milk and ice, then top with whipped cream and mocha drizzle to bring you endless java joy</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/choco-chip.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div id="modalB" class="modal">
+    <div class="modal-content">
+      <span id="closeB" class="close" onclick="hideDetails('B')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Green Tea Cream Frappuccino</h3>
+      <p>We blend sweetened premium matcha green tea, milk and ice and top it with sweetened whipped cream to give you a delicious boost of energy.</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/green-tea.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div id="modalC" class="modal">
+    <div class="modal-content">
+      <span id="closeC" class="close" onclick="hideDetails('C')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Iced Shaken Hibiscus Tea with Pomegranate Pearls</h3>
+      <p>This refreshing beverage combines our hibiscus Starbucks® Teavana™ tea and bursting pearls of real pomegranate juice for a kick of tart flavor.</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/ice-pome.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div id="modalD" class="modal">
+    <div class="modal-content">
+      <span id="closeD" class="close" onclick="hideDetails('D')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Iced Americano</h3>
+      <p>Espresso shots are topped with water to produce a light layer of crema, then served over ice. The result is this wonderfully rich cup with depth and nuance</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/ice-americano.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div id="modalE" class="modal">
+    <div class="modal-content">
+      <span id="closeE" class="close" onclick="hideDetails('E')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Pink Drink with Strawberry Açaí Starbucks Refreshers</h3>
+      <p>Pink drink is a combination of creamy but light coconut milk and real fruit juice of sweet strawberry and acai, with real strawberry slices and a pop of light energy boost. Great balance of creamy and fruity!</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/pink-drink.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  
+  <div id="modalF" class="modal">
+    <div class="modal-content">
+      <span id="closeF" class="close" onclick="hideDetails('F')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Iced White Chocolate Mocha</h3>
+      <p>Our signature espresso meets white chocolate sauce, milk and ice, then is finished off with sweetened whipped cream in this white chocolate delight.</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/ice-mocha.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  
+  <div id="modalG" class="modal">
+    <div class="modal-content">
+      <span id="closeG" class="close" onclick="hideDetails('G')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Strawberry Açaí with Lemonade Starbucks Refreshers</h3>
+      <p>A combination of real fruit juice and flavors of sweet strawberry acai, with real strawberry slices and a pop of light energy boost balanced with delightful zing of lemonade.</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/strawberry-lemonade.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <div id="modalH" class="modal">
+    <div class="modal-content">
+      <span id="closeH" class="close" onclick="hideDetails('H')">&times;</span>
+
+      <div class="row">
+        <div class="col-md-6 py-6 py-md-0"> <h3>Iced Espresso and Matcha Fusion</h3>
+      <p>Our fine Matcha powder layered with steamed milk and our Espresso Roast creates a beautiful layered beverage and is an inventive combination of coffee and tea, over ice.</p></div>
+      <div class="col-md-6 py-6 py-md-0"> 
+        <img src="Images for Ebucks/ice-matcha.png" alt="" width="300">
+      </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <footer id="footer" class="p-0 pt-3 d-flex flex-column justify-content-center">
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://facebook.com/Starbucks/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://twitter.com/starbucks/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://instagram.com/starbucks/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  
+    <div class="copyright text-center">
+      &copy; 2023 <strong><span>Ebucks Philippines</span></strong>. All Rights Reserved<br><br>
+    </div>
+  </footer>
+  <script type="text/javascript">
+      function imgSlider(anything){
+          document.querySelector('.starbucks').src = anything;
+      }
+      function changeCircleColor(color){
+          const circle = document.querySelector('.circle');
+          circle.style.background = color;
+      }
+
+    function showDetails(product){
+var myModal = document.getElementById("modal" + product);
+console.log(product)
+myModal.style.display = "block";
+    }
+
+    function hideDetails(product){
+var myModal = document.getElementById("modal" + product);
+myModal.style.display = "none";
+    }
+
+  </script>
+  </html>
